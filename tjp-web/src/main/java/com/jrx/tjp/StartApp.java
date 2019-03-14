@@ -13,5 +13,6 @@ public class StartApp {
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(StartApp.class);
         app.run(args);
+        System.out.println("分支二");
     }
 }
