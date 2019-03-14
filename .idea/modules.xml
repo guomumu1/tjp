@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis-generator/mybatis-generator.iml" filepath="$PROJECT_DIR$/mybatis-generator/mybatis-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/template-java-project.iml" filepath="$PROJECT_DIR$/.idea/template-java-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tjp-core/tjp-core.iml" filepath="$PROJECT_DIR$/tjp-core/tjp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tjp-data/tjp-data.iml" filepath="$PROJECT_DIR$/tjp-data/tjp-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tjp-oracle/tjp-oracle.iml" filepath="$PROJECT_DIR$/tjp-oracle/tjp-oracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tjp-web/tjp-web.iml" filepath="$PROJECT_DIR$/tjp-web/tjp-web.iml" />
+    </modules>
+  </component>
+</project>

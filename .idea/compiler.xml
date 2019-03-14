@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-generator" />
+        <module name="tjp-core" />
+        <module name="tjp-data" />
+        <module name="tjp-oracle" />
+        <module name="tjp-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-generator" target="1.8" />
+      <module name="template-java-project" target="1.8" />
+      <module name="tjp-core" target="1.8" />
+      <module name="tjp-data" target="1.8" />
+      <module name="tjp-oracle" target="1.6" />
+      <module name="tjp-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
