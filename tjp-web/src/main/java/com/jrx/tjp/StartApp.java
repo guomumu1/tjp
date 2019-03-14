@@ -15,5 +15,6 @@ public class StartApp {
         app.run(args);
         System.out.println("分支一添加的");
         System.out.println("分支一第二次添加");
+        System.out.println("分支一在第二个窗口上第二次修改");
     }
 }
