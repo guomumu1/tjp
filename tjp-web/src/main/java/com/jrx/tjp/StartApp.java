@@ -14,5 +14,6 @@ public class StartApp {
         SpringApplication app = new SpringApplication(StartApp.class);
         app.run(args);
         System.out.println("分支一添加的");
+        System.out.println("分支第二次添加");
     }
 }
