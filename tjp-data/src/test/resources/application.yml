@@ -1,0 +1,19 @@
+
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:db_users;MODE=MYSQL; #INIT=RUNSCRIPT FROM './src/test/resources/init_table.sql'
+    username:
+    password:
+
+
+
+mybatis:
+
+  #配置文件扫描位置
+  config-location: classpath:mybatis/config/mybatis-config.xml
+  #mapper xml文件扫描位置
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  #Model包扫描位置
+  type-aliases-package: com.jrx.tjp.mybatis.entity

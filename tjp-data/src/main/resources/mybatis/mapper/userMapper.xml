@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.jrx.tjp.mybatis.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.jrx.tjp.mybatis.entity.User" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="age" property="age" jdbcType="INTEGER" />
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+        id, name, age
+    </sql>
+
+    <!--
+        TODO 结果集使用 BaseResultMap 会报错 加判断条件也会报错
+    -->
+    <select id="selectByName" parameterType="java.lang.String" resultType="com.jrx.tjp.mybatis.entity.User">
+        select * from user where name = #{name}
+        <!--select * from user where <if test="name != null">name = #{name}</if>-->
+    </select>
+
+</mapper>

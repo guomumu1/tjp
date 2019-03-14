@@ -1,0 +1,15 @@
+server:
+  port: 9860
+  tomcat:
+    max-threads: 10
+
+# 日志配置  为空为项目跟目录下的logs  或者指定已经存在的目录
+#log:
+#  path:
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: JAVA模板示例工程
+
